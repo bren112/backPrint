@@ -1051,4 +1051,4 @@ def impressora():
     return "Funcionando"
 
 if __name__ == '__main__':
-    app.run(debug=True, port=1000)
+    app.run(debug=True, port='https://full-lake.vercel.app')
